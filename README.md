@@ -1,3 +1,5 @@
+[![Run on Repl.it](https://repl.it/badge/github/nocodb/nocodb-seed)](https://repl.it/github/nocodb/nocodb-seed)
+
 ## Clone & install
 ```
 git clone https://github.com/nocodb/nocodb-seed
