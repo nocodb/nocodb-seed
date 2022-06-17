@@ -1,5 +1,5 @@
 {
-  "name": "help",
+  "name": "nocodb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "upgrade": "npm uninstall --save nocodb && npm install --save nocodb",
-    "build": "npx pkg . --out-path dist"
+    "build": "npx pkg . --out-path dist --compress GZip"
   },
   "pkg": {
     "assets": [
@@ -29,6 +29,6 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "nocodb": "^0.90.11"
+    "nocodb": "*"
   }
 }
