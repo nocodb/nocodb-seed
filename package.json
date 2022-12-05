@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo \"Build\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "upgrade": "npm uninstall --save nocodb && npm install --save nocodb"
