@@ -5,8 +5,8 @@
     "upgrade": "npm uninstall --save nocodb && npm install --save nocodb"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "nocodb": "^0.106.0"
   }
 }
