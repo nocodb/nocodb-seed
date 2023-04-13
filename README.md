@@ -1,7 +1,7 @@
 ## Installation
 
 ```shell
-git clone https://github.com/nocodb/nocodb-seed
+git clone https://github.com/nocodb/nocodb-seed.git
 cd nocodb-seed
 npm install
 ```
