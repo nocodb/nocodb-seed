@@ -1,6 +1,13 @@
-.idea/
-/node_modules/
-/noco.db
+# Package managers
+/node_modules/**
 /package-lock.json
-/nc/
-.env
+/yarn.lock
+
+# NocoDB
+/.env
+/nc/**
+/noco.db
+
+# Code editors
+/.vscode/**
+/.idea/**

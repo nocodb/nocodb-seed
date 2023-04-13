@@ -1,23 +1,23 @@
-[![Run on Repl.it](https://repl.it/badge/github/nocodb/nocodb-seed)](https://repl.it/github/nocodb/nocodb-seed)
+## Installation
 
-## Clone & install
-```
-git clone https://github.com/nocodb/nocodb-seed
-
-cd nocodb-seed 
-
+```shell
+git clone https://github.com/nocodb/nocodb-seed.git
+cd nocodb-seed
 npm install
 ```
 
-## Start
-```
+## Start NocoDB
+
+```shell
 npm run start
 ```
 
-## To Upgrade
-```
+## Upgrade NocoDB
+
+```shell
 npm run upgrade
 ```
 
 ## Using environment file
-Copy the .env.example file to .env and change as needed.
+
+Copy the `.env.example` file to `.env` and change as needed
