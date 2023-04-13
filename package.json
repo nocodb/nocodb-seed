@@ -1,17 +1,9 @@
 {
-  "name": "help",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "build": "echo \"Build\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "upgrade": "npm uninstall --save nocodb && npm install --save nocodb"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
